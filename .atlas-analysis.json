@@ -1,0 +1,184 @@
+{
+  "projectType": "frontend",
+  "projectName": "LWC Recipes",
+  "projectDescription": "A collection of easy-to-digest code examples for Lightning Web Components on Salesforce Platform",
+  "theme": "palm",
+  "primaryColor": "#0aa6e4",
+  "lightColor": "#044279",
+  "darkColor": "#c5eaf8",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Hello World & Basics",
+            "pages": [
+              "recipes/hello-world",
+              "recipes/expressions",
+              "recipes/conditional-rendering",
+              "recipes/iteration"
+            ]
+          },
+          {
+            "group": "Component Communication",
+            "pages": [
+              "recipes/events/simple-events",
+              "recipes/events/events-with-data",
+              "recipes/events/event-bubbling",
+              "recipes/public-properties",
+              "recipes/public-methods"
+            ]
+          },
+          {
+            "group": "Data Access with Apex",
+            "pages": [
+              "recipes/apex/wire-method",
+              "recipes/apex/imperative-method",
+              "recipes/apex/wire-with-params",
+              "recipes/apex/imperative-with-params"
+            ]
+          },
+          {
+            "group": "Lightning Data Service",
+            "pages": [
+              "recipes/lds/wire-get-record",
+              "recipes/lds/wire-get-records",
+              "recipes/lds/create-record",
+              "recipes/lds/delete-record",
+              "recipes/lds/forms"
+            ]
+          },
+          {
+            "group": "GraphQL",
+            "pages": [
+              "recipes/graphql/contacts",
+              "recipes/graphql/multiple-objects",
+              "recipes/graphql/pagination",
+              "recipes/graphql/refresh"
+            ]
+          },
+          {
+            "group": "Navigation",
+            "pages": [
+              "recipes/navigation/overview",
+              "recipes/navigation/records",
+              "recipes/navigation/pages",
+              "recipes/navigation/list-views"
+            ]
+          },
+          {
+            "group": "Lightning Message Service",
+            "pages": [
+              "recipes/lms/publisher",
+              "recipes/lms/subscriber"
+            ]
+          },
+          {
+            "group": "Third-Party Libraries",
+            "pages": [
+              "recipes/libraries/chartjs",
+              "recipes/libraries/d3",
+              "recipes/libraries/fullcalendar"
+            ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "recipes/misc/dom-query",
+              "recipes/misc/modal",
+              "recipes/misc/i18n",
+              "recipes/misc/notifications",
+              "recipes/misc/static-resources"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Component Reference",
+        "groups": [
+          {
+            "group": "All Components",
+            "pages": [
+              "components/overview",
+              "components/hello",
+              "components/apex-imperative",
+              "components/apex-wire",
+              "components/events",
+              "components/composition",
+              "components/wire-adapters",
+              "components/navigation",
+              "components/workspace-api"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "123 Lightning Web Component examples",
+    "Apex integration patterns",
+    "Lightning Data Service usage",
+    "GraphQL data access",
+    "Component communication patterns",
+    "Third-party library integration",
+    "Navigation patterns",
+    "Lightning Message Service",
+    "Workspace API examples",
+    "Jest unit tests for all components"
+  ],
+  "publicApiSurface": [
+    "hello - Basic Hello World component",
+    "helloExpressions - Expression syntax examples",
+    "helloConditionalRendering - if:true and if:false directives",
+    "helloForEach - for:each iteration",
+    "helloIterator - iterator directive",
+    "apexImperativeMethod - Call Apex imperatively",
+    "apexWireMethodToProperty - Wire Apex to property",
+    "apexWireMethodToFunction - Wire Apex to function",
+    "apexImperativeMethodWithParams - Apex call with parameters",
+    "apexWireMethodWithParams - Wire Apex with parameters",
+    "eventSimple - Simple custom events",
+    "eventWithData - Events with custom data",
+    "eventBubbling - Event bubbling pattern",
+    "apiProperty - Public property example",
+    "apiMethod - Public method example",
+    "apiSetterGetter - Getter/setter pattern",
+    "wireGetRecord - Wire getRecord adapter",
+    "wireGetRecords - Wire getRecords adapter",
+    "ldsCreateRecord - Create record with LDS",
+    "ldsDeleteRecord - Delete record with LDS",
+    "recordFormStaticContact - lightning-record-form",
+    "recordEditFormStaticContact - lightning-record-edit-form",
+    "recordViewFormStaticContact - lightning-record-view-form",
+    "graphqlContacts - GraphQL query contacts",
+    "graphqlMultipleObjects - GraphQL multiple objects",
+    "graphqlPagination - GraphQL pagination",
+    "graphqlRefresh - GraphQL refresh data",
+    "navToRecord - Navigate to record page",
+    "navToNewRecord - Navigate to new record page",
+    "navToListView - Navigate to list view",
+    "navToHome - Navigate to home page",
+    "lmsPublisherWebComponent - LMS publisher",
+    "lmsSubscriberWebComponent - LMS subscriber",
+    "libsChartjs - Chart.js integration",
+    "libsD3 - D3.js integration",
+    "libsFullCalendar - FullCalendar integration",
+    "miscDomQuery - DOM query examples",
+    "miscModal - Modal dialog pattern",
+    "miscI18n - Internationalization",
+    "miscNotificationModules - Toast notifications",
+    "miscStaticResource - Static resource access",
+    "workspaceAPI - Workspace API overview",
+    "workspaceAPIOpenTab - Open workspace tab",
+    "workspaceAPIFocusTab - Focus workspace tab"
+  ]
+}
